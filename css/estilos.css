@@ -1,7 +1,12 @@
 body{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+<<<<<<< HEAD
     color: red;
+=======
+    color: blue;
+    background: rgb(80, 80, 80);
+>>>>>>> header
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -10,8 +15,13 @@ body{
     background: rgb(15, 0, 102);
     color: wheat;
     font-weight: bold;
+    font-size: 2em;
     margin: 0;
     padding: 0.5em;
+}
+#cabecera #logo{
+    width: 60px;
+    vertical-align: middle;
 }
 #cabecera #tagline{
     padding: 0 0 0 1em;
@@ -22,10 +32,13 @@ body{
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid rgb(15, 0, 102);
     margin: 0 auto;
 }
 #container h1{
     font-size: 20px;
 
+}
+#post{
+    background: white;
 }
